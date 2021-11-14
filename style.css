@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cormorant&family=Dongle&family=Merriweather:ital,wght@1,900&family=PT+Serif&family=Playfair+Display:wght@500&family=Raleway:wght@500&family=Roboto+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Cormorant&family=Dongle&family=Merriweather:ital,wght@1,900&family=PT+Serif&family=Playfair+Display:wght@500&family=Raleway:wght@500&family=Roboto+Mono&family=Satisfy&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/pelourinho2.jpg);
+}
+
+
+.box-model{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 0, 0) ;
+    background-color: white;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 120px;
+    text-shadow: rgb(1, 110, 110) 0.02em 0.02em 0.02em;
+}
+
+h2{
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    background-color:rgba(255, 255, 255, 0.9);
+    position: relative;
+    margin: 30px 10px 10px 10px;
+    text-align: center;
+    text-shadow: rgb(1, 110, 110) 0.03em 0.03em 0.03em;
+    border-radius: 60px;
+    top: 40px;
+}
+ 
+h3{
+    position: relative;
+    bottom: 20px;
+    color:rgb(1, 129, 129);
+    font-family: 'PT Serif', sans-serif;
+    font-size: 40px;
+    text-shadow: rgb(71, 70, 70) 0.02em 0.02em 0.02em;
+}
+
+p{
+    background-color: rgb(255, 255, 255, 0.9);
+    text-align: justify;
+    padding: 25px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+
+.video{
+    background-color:white ;
+
+    position: relative;
+    height: 720px;;
+    width: 1280px;
+    top: 50px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+ul{
+    text-align: center;
+    border-radius: 60px;
+    position: relative;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+li{
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 20px;
+    border-radius: 60px;
+    position: relative;
+    top: 20px;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.button01{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    right: 20px;
+    left: 40%;
+    bottom: 40px;
+    background-image: url(../img/Instagram.png);
+    background-position: center;
+    background-size: 80px;
+    border-radius: 40px;
+}
+
+.button02{
+    position: relative;
+    height: 80px;
+    width: 80px;
+    right: 20px;
+    left: 50%;
+    bottom: 40px;
+    background-image: url(../img/youtube.png);
+    background-position: center;
+    background-size: 80px;
+    border-radius: 40px;
+}
+
+
+
